@@ -4,3 +4,5 @@ if grep -Fqa 'accessibility=' /proc/cmdline &> /dev/null; then
 fi
 
 ~/.automated_script.sh
+mv /root/initramfs /lib/calamares/modules/
+mv /root/initramfscfg /lib/calamares/modules/
