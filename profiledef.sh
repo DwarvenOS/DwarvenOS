@@ -3,10 +3,10 @@
 
 iso_name="DwarvenOS"
 iso_label="DWARF_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="DwarvenOS Linux <https://github.com/DwarvenOS/DwarvenOS>"
-iso_application="DwarvenOS Linux Live/Rescue CD"
+iso_publisher="DwarvenOS <https://github.com/DwarvenOS/DwarvenOS>"
+iso_application="DwarvenOS Live/Rescue CD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
-install_dir="arch"
+install_dir="dwarf"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
            'uefi-ia32.grub.esp' 'uefi-x64.grub.esp'

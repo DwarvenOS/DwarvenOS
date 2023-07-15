@@ -1,8 +1,8 @@
 # mkinitcpio preset file for the 'linux' package on archiso
 
-PRESETS=('linux')
+PRESETS=('beer')
 
 ALL_kver='/boot/vmlinuz-linux'
 ALL_config='/etc/mkinitcpio.conf'
 
-linux_image="/boot/initramfs-linux.img"
+beer_image="/boot/initramfs-linux.img"
