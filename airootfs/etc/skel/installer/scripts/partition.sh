@@ -1,0 +1,26 @@
+#! /bin/bash
+
+echo "The best way to do your own disk partitioning!"
+echo "Open gparted or another disk partition utility"
+echo "(GUI partition utilities is easy to use, I hope you handle it)"
+echo "If you want to see full guide of disk partition you can visit:"
+echo "https://wiki.archlinux.org/title/installation_guide#Partition_the_disks"
+echo 
+echo "This is a short example of what the GPT disk partitioning should look like"
+echo "with UEFI:"
+echo "----------------------------------------------------------------------------------------------------"
+echo "|Name  |         Mount point in system   |   Suggested size                    |  Filesystem       |"
+echo "|------------------------------------------------------------------------------|-------------------|"
+echo "|Boot  |        /boot                    |   Min: 300Mb Reccomend: ~1Gb.       |  FAT32/Vfat       |"
+echo "|Swap  |        Swap part. or /swapfile  |   Usually Swap size = RAM size * 2  |  None             |"
+echo "|Root  |        /                        |  Remainder of the device            |  ext4, btrfs etc. |"
+echo "----------------------------------------------------------------------------------------------------"
+echo 
+echo "with BIOS:"
+echo "----------------------------------------------------------------------------------------------------"
+echo "|   Name    |    Mount point in system    |   Suggested size                   |  Filesystem       |"
+echo "|------------------------------------------------------------------------------|-------------------|"
+echo "|Bios boot  |    None                     |   8Mb                              |  None             |"
+echo "|Swap       |    Swap part. or /swapfile  |   Usually Swap size = RAM size * 2 |  None             |"
+echo "|Root       |    /                        |   Remainder of the device          |  ext4, btrfs etc. |"
+echo "----------------------------------------------------------------------------------------------------"

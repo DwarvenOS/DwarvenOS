@@ -128,8 +128,13 @@ zsh
 #### CUSTOM PROGRAMMS#
 micro
 fish
-kde-utilities-meta
+
 alacritty
+
+kde-utilities-meta
+kde-system-meta
+
+networkmanager
 
 ### DE ###
 plasma-meta
