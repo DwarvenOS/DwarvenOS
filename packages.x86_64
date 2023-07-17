@@ -136,6 +136,8 @@ kde-system-meta
 
 networkmanager
 
+calamares
+
 ### DE ###
 plasma-meta
 sddm

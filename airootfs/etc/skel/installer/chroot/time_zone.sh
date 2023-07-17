@@ -16,7 +16,6 @@ do
 	read -p "Write your timezone city (c for city list): " city
 done
 
-ln -sf /usr/share/zoneinfo/$(region)/$(city) /etc/localtime
+ln -sf /usr/share/zoneinfo/$region/$city /etc/localtime
 
 hwclock --systohc
-	
