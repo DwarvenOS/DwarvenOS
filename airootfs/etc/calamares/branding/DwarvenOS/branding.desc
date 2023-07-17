@@ -121,17 +121,17 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "@{NAME}"
-    shortProductName:    Generic
-    version:             2020.2 LTS
-    shortVersion:        2020.2
-    versionedName:       Fancy GNU/Linux 2020.2 LTS "Turgid Tuba"
-    shortVersionedName:  FancyGL 2020.2
-    bootloaderEntryName: FancyGL
-    productUrl:          https://calamares.io/
-    supportUrl:          https://github.com/calamares/calamares/wiki
-    knownIssuesUrl:      https://github.com/calamares/calamares/issues
-    releaseNotesUrl:     https://calamares.io/news/
+    productName:         "Dwarven Os"
+    shortProductName:    DwarvenOS
+    version:             rolling
+    shortVersion:        rolling
+    versionedName:       Dwarven OS GNU/Linux
+    shortVersionedName:  DwarvenOS
+    bootloaderEntryName: DwarvenOS
+    productUrl:          https://github.com/DwarvenOS/DwarvenOS
+    supportUrl:          https://github.com/DwarvenOS/DwarvenOS
+    knownIssuesUrl:      https://github.com/DwarvenOS/DwarvenOS/issues
+    releaseNotesUrl:     https://github.com/DwarvenOS/DwarvenOS
     donateUrl:           https://kde.org/community/donations/index.php
 
 # These images are loaded from the branding module directory.
@@ -162,7 +162,7 @@ strings:
 #
 # These filenames can also use substitutions from os-release (see above).
 images:
-    # productBanner:       "banner.png"
+    productBanner:       "banner.png"
     productIcon:         "squid.png"
     productLogo:         "squid.png"
     # productWallpaper:    "wallpaper.png"
